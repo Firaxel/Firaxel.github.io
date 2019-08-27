@@ -131,20 +131,24 @@
                 transform: translateX(-100%);
                 margin-left: 0px;
             }
-            li {
-                position: relative;
-                margin-bottom: 26px;
-                color: #555555;
-                font-size: 14px;
-                font-weight: 300;
-                &:before {
-                    content: '';
-                    position: absolute;
-                    width: 5px;
-                    height: 5px;
-                    background-color: $main-color;
-                    left: -14px;
-                    top: 8px;
+            ul {
+                margin: 0;
+                padding: 0;
+                li {
+                    position: relative;
+                    margin-bottom: 26px;
+                    color: #555555;
+                    font-size: 14px;
+                    font-weight: 300;
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        width: 5px;
+                        height: 5px;
+                        background-color: $main-color;
+                        left: -14px;
+                        top: 8px;
+                    }
                 }
             }
         }
